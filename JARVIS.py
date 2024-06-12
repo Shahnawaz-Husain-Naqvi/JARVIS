@@ -239,8 +239,8 @@ try:
     # for sending mail   
     elif "hey jarvis send mail" or "hey jarvis send email" in text:
         
-        sender_email = "shahnawazhusain556@gmail.com"
-        password= 'jjjw gsrz gflp bxrk'
+        sender_email = "your Email"
+        password= 'your generated key from your email'
         speak('please write recievers email')
         receiver_email = input()
         message = MIMEMultipart()
